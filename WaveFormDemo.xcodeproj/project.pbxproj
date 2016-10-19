@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C81FF69A1DB7492A007ACD55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81FF6991DB7492A007ACD55 /* AppDelegate.swift */; };
+		C81FF69C1DB7492A007ACD55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81FF69B1DB7492A007ACD55 /* ViewController.swift */; };
+		C81FF69F1DB7492A007ACD55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81FF69D1DB7492A007ACD55 /* Main.storyboard */; };
+		C81FF6A11DB7492A007ACD55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C81FF6A01DB7492A007ACD55 /* Assets.xcassets */; };
+		C81FF6A41DB7492A007ACD55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81FF6A21DB7492A007ACD55 /* LaunchScreen.storyboard */; };
+		C81FF6AF1DB7492B007ACD55 /* WaveFormDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81FF6AE1DB7492B007ACD55 /* WaveFormDemoTests.swift */; };
+		C81FF6BA1DB7492B007ACD55 /* WaveFormDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81FF6B91DB7492B007ACD55 /* WaveFormDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C81FF6AB1DB7492B007ACD55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C81FF68E1DB7492A007ACD55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C81FF6951DB7492A007ACD55;
+			remoteInfo = WaveFormDemo;
+		};
+		C81FF6B61DB7492B007ACD55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C81FF68E1DB7492A007ACD55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C81FF6951DB7492A007ACD55;
+			remoteInfo = WaveFormDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C81FF6961DB7492A007ACD55 /* WaveFormDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveFormDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C81FF6991DB7492A007ACD55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C81FF69B1DB7492A007ACD55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C81FF69E1DB7492A007ACD55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C81FF6A01DB7492A007ACD55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C81FF6A31DB7492A007ACD55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C81FF6A51DB7492A007ACD55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C81FF6AA1DB7492B007ACD55 /* WaveFormDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveFormDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C81FF6AE1DB7492B007ACD55 /* WaveFormDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveFormDemoTests.swift; sourceTree = "<group>"; };
+		C81FF6B01DB7492B007ACD55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C81FF6B51DB7492B007ACD55 /* WaveFormDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveFormDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C81FF6B91DB7492B007ACD55 /* WaveFormDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveFormDemoUITests.swift; sourceTree = "<group>"; };
+		C81FF6BB1DB7492B007ACD55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C81FF6931DB7492A007ACD55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C81FF6A71DB7492B007ACD55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C81FF6B21DB7492B007ACD55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C81FF68D1DB7492A007ACD55 = {
+			isa = PBXGroup;
+			children = (
+				C81FF6981DB7492A007ACD55 /* WaveFormDemo */,
+				C81FF6AD1DB7492B007ACD55 /* WaveFormDemoTests */,
+				C81FF6B81DB7492B007ACD55 /* WaveFormDemoUITests */,
+				C81FF6971DB7492A007ACD55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C81FF6971DB7492A007ACD55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C81FF6961DB7492A007ACD55 /* WaveFormDemo.app */,
+				C81FF6AA1DB7492B007ACD55 /* WaveFormDemoTests.xctest */,
+				C81FF6B51DB7492B007ACD55 /* WaveFormDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C81FF6981DB7492A007ACD55 /* WaveFormDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C81FF6991DB7492A007ACD55 /* AppDelegate.swift */,
+				C81FF69B1DB7492A007ACD55 /* ViewController.swift */,
+				C81FF69D1DB7492A007ACD55 /* Main.storyboard */,
+				C81FF6A01DB7492A007ACD55 /* Assets.xcassets */,
+				C81FF6A21DB7492A007ACD55 /* LaunchScreen.storyboard */,
+				C81FF6A51DB7492A007ACD55 /* Info.plist */,
+			);
+			path = WaveFormDemo;
+			sourceTree = "<group>";
+		};
+		C81FF6AD1DB7492B007ACD55 /* WaveFormDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C81FF6AE1DB7492B007ACD55 /* WaveFormDemoTests.swift */,
+				C81FF6B01DB7492B007ACD55 /* Info.plist */,
+			);
+			path = WaveFormDemoTests;
+			sourceTree = "<group>";
+		};
+		C81FF6B81DB7492B007ACD55 /* WaveFormDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C81FF6B91DB7492B007ACD55 /* WaveFormDemoUITests.swift */,
+				C81FF6BB1DB7492B007ACD55 /* Info.plist */,
+			);
+			path = WaveFormDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C81FF6951DB7492A007ACD55 /* WaveFormDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C81FF6BE1DB7492B007ACD55 /* Build configuration list for PBXNativeTarget "WaveFormDemo" */;
+			buildPhases = (
+				C81FF6921DB7492A007ACD55 /* Sources */,
+				C81FF6931DB7492A007ACD55 /* Frameworks */,
+				C81FF6941DB7492A007ACD55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveFormDemo;
+			productName = WaveFormDemo;
+			productReference = C81FF6961DB7492A007ACD55 /* WaveFormDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C81FF6A91DB7492B007ACD55 /* WaveFormDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C81FF6C11DB7492B007ACD55 /* Build configuration list for PBXNativeTarget "WaveFormDemoTests" */;
+			buildPhases = (
+				C81FF6A61DB7492B007ACD55 /* Sources */,
+				C81FF6A71DB7492B007ACD55 /* Frameworks */,
+				C81FF6A81DB7492B007ACD55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C81FF6AC1DB7492B007ACD55 /* PBXTargetDependency */,
+			);
+			name = WaveFormDemoTests;
+			productName = WaveFormDemoTests;
+			productReference = C81FF6AA1DB7492B007ACD55 /* WaveFormDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C81FF6B41DB7492B007ACD55 /* WaveFormDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C81FF6C41DB7492B007ACD55 /* Build configuration list for PBXNativeTarget "WaveFormDemoUITests" */;
+			buildPhases = (
+				C81FF6B11DB7492B007ACD55 /* Sources */,
+				C81FF6B21DB7492B007ACD55 /* Frameworks */,
+				C81FF6B31DB7492B007ACD55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C81FF6B71DB7492B007ACD55 /* PBXTargetDependency */,
+			);
+			name = WaveFormDemoUITests;
+			productName = WaveFormDemoUITests;
+			productReference = C81FF6B51DB7492B007ACD55 /* WaveFormDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C81FF68E1DB7492A007ACD55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = SHUVO;
+				TargetAttributes = {
+					C81FF6951DB7492A007ACD55 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					C81FF6A91DB7492B007ACD55 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C81FF6951DB7492A007ACD55;
+					};
+					C81FF6B41DB7492B007ACD55 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C81FF6951DB7492A007ACD55;
+					};
+				};
+			};
+			buildConfigurationList = C81FF6911DB7492A007ACD55 /* Build configuration list for PBXProject "WaveFormDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C81FF68D1DB7492A007ACD55;
+			productRefGroup = C81FF6971DB7492A007ACD55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C81FF6951DB7492A007ACD55 /* WaveFormDemo */,
+				C81FF6A91DB7492B007ACD55 /* WaveFormDemoTests */,
+				C81FF6B41DB7492B007ACD55 /* WaveFormDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C81FF6941DB7492A007ACD55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81FF6A41DB7492A007ACD55 /* LaunchScreen.storyboard in Resources */,
+				C81FF6A11DB7492A007ACD55 /* Assets.xcassets in Resources */,
+				C81FF69F1DB7492A007ACD55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C81FF6A81DB7492B007ACD55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C81FF6B31DB7492B007ACD55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C81FF6921DB7492A007ACD55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81FF69C1DB7492A007ACD55 /* ViewController.swift in Sources */,
+				C81FF69A1DB7492A007ACD55 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C81FF6A61DB7492B007ACD55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81FF6AF1DB7492B007ACD55 /* WaveFormDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C81FF6B11DB7492B007ACD55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81FF6BA1DB7492B007ACD55 /* WaveFormDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C81FF6AC1DB7492B007ACD55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C81FF6951DB7492A007ACD55 /* WaveFormDemo */;
+			targetProxy = C81FF6AB1DB7492B007ACD55 /* PBXContainerItemProxy */;
+		};
+		C81FF6B71DB7492B007ACD55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C81FF6951DB7492A007ACD55 /* WaveFormDemo */;
+			targetProxy = C81FF6B61DB7492B007ACD55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C81FF69D1DB7492A007ACD55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C81FF69E1DB7492A007ACD55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C81FF6A21DB7492A007ACD55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C81FF6A31DB7492A007ACD55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C81FF6BC1DB7492B007ACD55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C81FF6BD1DB7492B007ACD55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C81FF6BF1DB7492B007ACD55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaveFormDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuvo.WaveFormDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C81FF6C01DB7492B007ACD55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaveFormDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuvo.WaveFormDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C81FF6C21DB7492B007ACD55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaveFormDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuvo.WaveFormDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveFormDemo.app/WaveFormDemo";
+			};
+			name = Debug;
+		};
+		C81FF6C31DB7492B007ACD55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaveFormDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuvo.WaveFormDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveFormDemo.app/WaveFormDemo";
+			};
+			name = Release;
+		};
+		C81FF6C51DB7492B007ACD55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WaveFormDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuvo.WaveFormDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WaveFormDemo;
+			};
+			name = Debug;
+		};
+		C81FF6C61DB7492B007ACD55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WaveFormDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuvo.WaveFormDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WaveFormDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C81FF6911DB7492A007ACD55 /* Build configuration list for PBXProject "WaveFormDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C81FF6BC1DB7492B007ACD55 /* Debug */,
+				C81FF6BD1DB7492B007ACD55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C81FF6BE1DB7492B007ACD55 /* Build configuration list for PBXNativeTarget "WaveFormDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C81FF6BF1DB7492B007ACD55 /* Debug */,
+				C81FF6C01DB7492B007ACD55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C81FF6C11DB7492B007ACD55 /* Build configuration list for PBXNativeTarget "WaveFormDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C81FF6C21DB7492B007ACD55 /* Debug */,
+				C81FF6C31DB7492B007ACD55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C81FF6C41DB7492B007ACD55 /* Build configuration list for PBXNativeTarget "WaveFormDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C81FF6C51DB7492B007ACD55 /* Debug */,
+				C81FF6C61DB7492B007ACD55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C81FF68E1DB7492A007ACD55 /* Project object */;
+}
