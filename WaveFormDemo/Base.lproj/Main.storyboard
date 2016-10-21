@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11198.2" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11198.2" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -22,49 +22,24 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="glK-gL-ELQ">
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OvV-ED-HI3">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kMT-8u-kay">
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="m1G-Oq-KN6"/>
-                                                    <constraint firstAttribute="width" constant="60" id="ztK-dJ-wAg"/>
+                                                    <constraint firstAttribute="width" constant="95" id="LvH-mq-9oN"/>
+                                                    <constraint firstAttribute="height" constant="30" id="cWr-sG-Byn"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
-                                                <state key="normal" title="Play">
-                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="Load MP3">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="playPauseBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D0y-BG-x8V"/>
+                                                    <action selector="loadMP3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iS5-N9-Jh2"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1M-pO-PJf">
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="73" id="Fbg-Cc-U3u"/>
-                                                    <constraint firstAttribute="height" constant="30" id="iOe-Vi-gc4"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="15"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="xJJ-iM-X2v">
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="20" id="VD1-mp-IYM"/>
-                                                    <constraint firstAttribute="width" constant="315" id="lBS-3S-0JJ"/>
-                                                </constraints>
-                                                <connections>
-                                                    <action selector="sliderBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pR6-j6-NGX"/>
-                                                </connections>
-                                            </slider>
                                         </subviews>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstItem="xJJ-iM-X2v" firstAttribute="centerX" secondItem="glK-gL-ELQ" secondAttribute="centerX" id="3MA-JA-ez4"/>
-                                            <constraint firstItem="I1M-pO-PJf" firstAttribute="centerY" secondItem="glK-gL-ELQ" secondAttribute="centerY" id="J8f-LU-Vyf"/>
-                                            <constraint firstAttribute="bottom" secondItem="OvV-ED-HI3" secondAttribute="bottom" constant="22" id="QCa-xj-fn9"/>
-                                            <constraint firstItem="OvV-ED-HI3" firstAttribute="top" secondItem="xJJ-iM-X2v" secondAttribute="bottom" constant="12" id="cve-TB-nBR"/>
-                                            <constraint firstItem="xJJ-iM-X2v" firstAttribute="top" secondItem="glK-gL-ELQ" secondAttribute="top" constant="8" id="gYW-hG-GOa"/>
-                                            <constraint firstItem="OvV-ED-HI3" firstAttribute="centerX" secondItem="glK-gL-ELQ" secondAttribute="centerX" id="ghw-lH-uxt"/>
-                                            <constraint firstItem="xJJ-iM-X2v" firstAttribute="leading" secondItem="glK-gL-ELQ" secondAttribute="leading" constant="30" id="nKc-7h-WCl"/>
-                                            <constraint firstAttribute="trailing" secondItem="I1M-pO-PJf" secondAttribute="trailing" constant="35" id="sFP-IY-PUb"/>
-                                            <constraint firstAttribute="trailing" secondItem="xJJ-iM-X2v" secondAttribute="trailing" constant="30" id="zNu-QZ-rXm"/>
+                                            <constraint firstItem="kMT-8u-kay" firstAttribute="centerX" secondItem="glK-gL-ELQ" secondAttribute="centerX" id="3ex-oD-XOC"/>
+                                            <constraint firstItem="kMT-8u-kay" firstAttribute="centerY" secondItem="glK-gL-ELQ" secondAttribute="centerY" id="gh7-68-dhM"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -73,29 +48,26 @@
                                     <constraint firstAttribute="height" constant="92" id="vLZ-1u-H6j"/>
                                 </constraints>
                             </stackView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W1x-ed-zcm">
-                                <color key="backgroundColor" red="1" green="0.53064385569236494" blue="0.52380490892188525" alpha="1" colorSpace="calibratedRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W1x-ed-zcm" customClass="FDWaveformView" customModule="WaveFormDemo">
+                                <color key="backgroundColor" red="1" green="0.83845982576812261" blue="0.83970323722546136" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="w9V-mv-j4b"/>
+                                    <constraint firstAttribute="height" constant="200" id="Szs-yE-Oic"/>
+                                    <constraint firstAttribute="width" constant="375" id="ZQp-xv-cKU"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="oC7-fi-NLf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="COk-4a-mqH"/>
-                            <constraint firstItem="W1x-ed-zcm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JPx-PG-2ur"/>
                             <constraint firstAttribute="bottom" secondItem="oC7-fi-NLf" secondAttribute="bottom" id="LzR-fN-qjT"/>
-                            <constraint firstItem="W1x-ed-zcm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WGU-95-2gu"/>
-                            <constraint firstItem="W1x-ed-zcm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gBf-oI-vbQ"/>
-                            <constraint firstAttribute="trailing" secondItem="W1x-ed-zcm" secondAttribute="trailing" id="rLX-h4-6yd"/>
+                            <constraint firstItem="W1x-ed-zcm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pY4-G6-M1M"/>
                             <constraint firstAttribute="trailing" secondItem="oC7-fi-NLf" secondAttribute="trailing" id="sZf-DK-bJX"/>
+                            <constraint firstItem="W1x-ed-zcm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yUu-CU-4K8"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="playPauseBtn" destination="OvV-ED-HI3" id="77G-Rh-OjZ"/>
-                        <outlet property="sliderControl" destination="xJJ-iM-X2v" id="ww2-kS-QSW"/>
-                        <outlet property="timerLabel" destination="I1M-pO-PJf" id="dL4-s3-mOt"/>
-                        <outlet property="waveView" destination="W1x-ed-zcm" id="G3b-9V-eMF"/>
+                        <outlet property="loadBtn" destination="kMT-8u-kay" id="Mxa-cq-yZR"/>
+                        <outlet property="wavefom" destination="W1x-ed-zcm" id="olT-2Z-0Jy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

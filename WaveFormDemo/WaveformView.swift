@@ -9,8 +9,10 @@
 
 import  UIKit
 import AVFoundation
+import Accelerate
+import MediaPlayer
 
-class WaveformView: UIImageView {
+class WaveformView: UIView {
     
     
      func initWithUrl(url: NSURL) {
@@ -58,9 +60,8 @@ class WaveformView: UIImageView {
                 context.strokePath()
             }
         }
-        // Create new image
+
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
-        // Tidy up
         UIGraphicsEndImageContext()
         return newImage!
     }

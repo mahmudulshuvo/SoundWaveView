@@ -14,8 +14,10 @@
 		C81FF6A41DB7492A007ACD55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81FF6A21DB7492A007ACD55 /* LaunchScreen.storyboard */; };
 		C81FF6AF1DB7492B007ACD55 /* WaveFormDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81FF6AE1DB7492B007ACD55 /* WaveFormDemoTests.swift */; };
 		C81FF6BA1DB7492B007ACD55 /* WaveFormDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81FF6B91DB7492B007ACD55 /* WaveFormDemoUITests.swift */; };
+		C82348F01DB9E0EC00E67C82 /* FDWaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82348EF1DB9E0EC00E67C82 /* FDWaveformView.swift */; };
+		C82348F41DB9F18400E67C82 /* Submarine.aiff in Resources */ = {isa = PBXBuildFile; fileRef = C82348F31DB9F18400E67C82 /* Submarine.aiff */; };
+		C82348F81DBA11D000E67C82 /* whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C82348F71DBA11D000E67C82 /* whistle.mp3 */; };
 		C89C12311DB94E4E00E34F20 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C89C12301DB94E4E00E34F20 /* Accelerate.framework */; };
-		C8AAC43B1DB8E084009B17DD /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AAC43A1DB8E084009B17DD /* WaveformView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +51,10 @@
 		C81FF6B51DB7492B007ACD55 /* WaveFormDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveFormDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81FF6B91DB7492B007ACD55 /* WaveFormDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveFormDemoUITests.swift; sourceTree = "<group>"; };
 		C81FF6BB1DB7492B007ACD55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82348EF1DB9E0EC00E67C82 /* FDWaveformView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDWaveformView.swift; sourceTree = "<group>"; };
+		C82348F31DB9F18400E67C82 /* Submarine.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Submarine.aiff; sourceTree = "<group>"; };
+		C82348F71DBA11D000E67C82 /* whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whistle.mp3; sourceTree = "<group>"; };
 		C89C12301DB94E4E00E34F20 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		C8AAC43A1DB8E084009B17DD /* WaveformView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveformView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +109,13 @@
 			children = (
 				C81FF6991DB7492A007ACD55 /* AppDelegate.swift */,
 				C81FF69B1DB7492A007ACD55 /* ViewController.swift */,
-				C8AAC43A1DB8E084009B17DD /* WaveformView.swift */,
+				C82348EF1DB9E0EC00E67C82 /* FDWaveformView.swift */,
 				C81FF69D1DB7492A007ACD55 /* Main.storyboard */,
 				C81FF6A01DB7492A007ACD55 /* Assets.xcassets */,
 				C81FF6A21DB7492A007ACD55 /* LaunchScreen.storyboard */,
 				C81FF6A51DB7492A007ACD55 /* Info.plist */,
+				C82348F71DBA11D000E67C82 /* whistle.mp3 */,
+				C82348F31DB9F18400E67C82 /* Submarine.aiff */,
 			);
 			path = WaveFormDemo;
 			sourceTree = "<group>";
@@ -247,6 +253,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C82348F81DBA11D000E67C82 /* whistle.mp3 in Resources */,
+				C82348F41DB9F18400E67C82 /* Submarine.aiff in Resources */,
 				C81FF6A41DB7492A007ACD55 /* LaunchScreen.storyboard in Resources */,
 				C81FF6A11DB7492A007ACD55 /* Assets.xcassets in Resources */,
 				C81FF69F1DB7492A007ACD55 /* Main.storyboard in Resources */,
@@ -276,7 +284,7 @@
 			files = (
 				C81FF69C1DB7492A007ACD55 /* ViewController.swift in Sources */,
 				C81FF69A1DB7492A007ACD55 /* AppDelegate.swift in Sources */,
-				C8AAC43B1DB8E084009B17DD /* WaveformView.swift in Sources */,
+				C82348F01DB9E0EC00E67C82 /* FDWaveformView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
